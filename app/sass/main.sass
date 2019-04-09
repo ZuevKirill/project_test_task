@@ -1,0 +1,481 @@
+$secondary-color: #2b2d5c
+$primary-color: #f2c200
+
+body
+	margin: 0px
+	min-width: 1650px
+
+.main
+	position: relative
+	overflow: hidden
+
+a 
+	text-decoration: none
+
+.back_to_top
+	position: fixed
+	z-index: 50
+	bottom: -5px
+	right: 5%
+	display: none
+
+.back_to_top-show 
+  display: block
+
+.back_to_footer
+	position: absolute
+	bottom: 984px
+
+.header
+	position: absolute
+	height: 160px
+	margin-top: 60px
+
+	width: 100%
+	z-index: 1
+
+	.logo
+		float: left
+		width: 50%
+		padding-left: 150px
+
+	.menu
+		display: flex
+		justify-content: flex-end
+
+	ul
+		padding: 0
+		margin: 0
+		color: #fff
+		list-style-type: none
+		width: 550px
+	li
+		float: left
+		margin: 10px
+		
+	a 
+		font-family: 'Muli', sans-serif
+		font-size: 14px
+		font-weight: 400
+		color: #fff
+		display: block
+		padding: 20px 6px 8px 6px
+		&:hover
+			 border-bottom: 1px solid $primary-color
+
+
+.sec1_item
+	left: 0px
+	bottom: -40px
+	opacity: 0.2	
+	position: absolute
+
+.sec1_item2
+	right: 0px
+	bottom: -40px
+	padding-left: 225px
+	padding-top: 30px
+	position: absolute
+	border-left: 1px solid #fff
+	img
+		opacity: 0.1	
+
+.social_icon	
+	display: flex
+	justify-content: space-evenly
+	border-top: 1px solid #fff
+	width: 370px
+	position: absolute
+	right: 0px
+	padding-left: 110px
+	height: 80px
+	bottom: 0px
+	align-items: center
+
+.section1
+	
+	background: $secondary-color
+	background-image: url(../img/bg1.jpg)
+	background-position: center
+	background-repeat: no-repeat
+	height: 100%
+	width: 100%
+	position: relative
+	color: #fff
+	.container
+		padding: 144px
+
+	h1
+		font-family: 'Trirong', serif
+		font-weight: 100
+		font-size: 60px
+		line-height: 70px
+	
+	p 
+		font-family: 'Muli', sans-serif
+		font-weight: 400
+
+.arrow__down
+	text-align: center
+	padding-bottom: 60px
+
+.button
+	margin-top: 80px
+	text-align: center
+	vertical-align: middle
+	background-color: #f2c200
+	border-radius: 70px
+	border-radius: 70px
+	width: 230px
+	padding: 20px
+	font-family: 'Muli', sans-serif
+	font-size: 20px
+	font-weight: 400
+	text-decoration: none
+	color: #2b2d5c
+	&:hover
+		background-color: #fff
+
+.button2
+	margin-top: 80px
+	text-align: center
+	vertical-align: middle
+	background-color: #2b2d5c
+	border-radius: 70px
+	border-radius: 70px
+	width: 310px
+	padding: 20px
+	font-family: 'Muli', sans-serif
+	font-size: 20px
+	font-weight: 400
+	text-decoration: none
+	color: #fff
+	text-transform: uppercase
+	&:hover
+		background-color: #f2c200
+			
+
+.section2
+	background-color: #fff
+	height: 100%
+	width: 100%
+	position: relative
+	display: flex
+	padding: 130px 0px 0px 0px
+
+	h2
+		font-family: 'Trirong', serif
+		font-weight: 100
+		font-size: 40px
+		line-height: 70px
+		color: #2b2d5c
+	h3
+		font-family: 'Trirong', serif
+		font-weight: 100
+		font-size: 26px
+		line-height: 70px
+		color: #2b2d5c
+	p
+		font-family: 'Muli', sans-serif
+		font-size: 16px
+		font-weight: 400
+		color: #595666
+	a
+		color: #fff
+		&:hover
+			color: #2b2d5c
+
+	.conteiner_sec2
+		display: flex
+		justify-content: space-between
+		text-transform: uppercase
+
+	.imagesec2
+		float: left
+
+	.textsec2
+		float: right
+		padding: 120px
+
+	.doit
+		display: inline-block
+
+.section3
+	text-align: center
+	background-image: url(../img/hp.jpg)
+	height: 235px
+	width: 100%
+	position: relative
+	padding-top: 60px
+
+	.container_sec2
+		display: flex
+		justify-content: space-evenly
+		align-items: center
+		margin: 20px 120px 40px 120px
+
+	h2
+		font-family: 'Trirong', serif
+		font-size: 40px
+		font-weight: 400
+		color: #fff
+		margin: 0
+	img
+	    object-fit: contain
+		
+.img_hover
+	z-index: 10
+	width: 100%
+	height: 98%
+	position: absolute
+	display: flex
+	justify-content: center
+	opacity: 0
+	&:hover
+		opacity: 1
+		background-color:	rgba(43, 45, 92, 0.65)
+.section4
+	background-color: #fff
+	height: 1000px
+	width: 100%
+	position: relative
+	font-family: 'Muli', sans-serif
+	margin: 100px 0px 100px 0px
+
+	.social_port_icon
+		position: absolute
+		bottom: 20px
+		display: flex
+
+
+	.button_more
+		border-bottom: 11px solid #f2c200
+		width: 99px
+		font-weight: 900
+		color: #2b2d5c
+		&:hover
+			border-bottom: 6px solid #f2c200
+	
+	.button_more_portfolio
+		margin: 50px 0px 0px 50px
+		text-align: center
+		vertical-align: middle
+		background-color: #fff
+		border-radius: 70px
+		border-radius: 70px
+		width: 230px
+		border: 2px #f2c200 solid
+		padding: 20px
+		font-family: 'Muli', sans-serif
+		font-size: 20px
+		font-weight: 400
+		text-decoration: none
+		color: #f2c200
+		text-transform: uppercase
+		&:hover
+			background-color: #f2c200
+			color: #fff
+
+	p
+		font-size: 16px
+		font-weight: 400
+		color: #2b2d5c
+		line-height: 180%
+
+	h3
+		font-family: 'Trirong', serif
+		font-size: 40px
+		font-weight: 400
+		color: #2f315f
+		margin: 0
+
+	.text_portfolio
+		width: 363px
+		padding: 250px 70px 250px 70px
+		float: left
+		background-color: #f2c200
+
+	.imagee_portfolio
+		float: inline-end
+		overflow: hidden
+		width: 1125px
+		margin-right: -33px	
+
+	.main
+		overflow: hidden
+
+	.container
+		display: flex
+
+	.column
+		flex-direction: row
+		flex-wrap: wrap
+		display: flex
+
+	.row
+		flex-direction: column
+		display: flex
+
+	.grid-item
+		position: relative
+		margin: 0px 0px 30px 30px
+	.grid
+
+	
+			
+.section5
+	background-color: #fafafd
+	height: 1000px
+	width: 100%
+	position: relative
+	text-align: center
+	h3
+		font-family: 'Trirong', serif
+		font-size: 40px
+		font-weight: 400
+		color: #2f315f
+		margin: 0
+	h5
+		font-family: 'Muli', sans-serif
+		font-size: 20px
+		font-weight: 400
+		color: #2f315f
+
+	p 
+		font-family: 'Muli', sans-serif
+		font-size: 20px
+		font-weight: 200
+		color: #2f315f
+
+	a 
+		position: absolute
+		margin: -9px 0px 0px 0px
+		font-family: 'Muli', sans-serif
+		font-size: 16px
+		color: #000
+
+	.container_sec5
+		display: flex
+		justify-content: space-evenly
+
+	.comtainer_text_item
+		margin: -10px 20px 0px 20px
+
+	.button_more_blog
+		border-bottom: 11px solid #f2c200
+		width: 89px
+		&:hover
+			border-bottom: 6px solid #f2c200
+			width: 89px
+
+	.text_sec5
+		width: 420px
+		padding-top: 50px
+		display: inline-block
+	
+	.blog_item
+		height: 615px
+		margin-top: 60px
+		width: 450px
+		background-color: #fff
+		text-align: justify
+		box-shadow: 0px 0px 80.36px 1.64px rgba(43, 46, 102, 0.2)
+		p 
+			font-size: 16px
+	.blog_item:first-child
+		box-shadow: 0px 0px 0px 0px rgba(43, 46, 102, 0.0)
+		margin-top: -160px
+	.blog_item:last-child
+		box-shadow: 0px 0px 0px 0px rgba(43, 46, 102, 0.0)
+		margin-top: -160px
+
+
+.section6
+	padding-top: 120px
+	text-align: center
+	background-color: #fff
+	height: 530px
+	width: 100%
+	position: relative
+	background-image:  url(../img/bg_form.jpg)
+
+	h2
+		font-family: 'Trirong', serif
+		font-size: 40px
+		font-weight: 400
+		color: #fff
+		margin: -20px 0px 25px 15px
+
+	input, textarea
+		width: 500px
+		height: 45px
+		opacity: 0.7
+		font-size: 17px
+		padding-left: 22px
+		color: $secondary-color
+		font-family: 'Muli', sans-serif
+		font-size: 20px
+		font-weight: 400
+
+	.text_area
+		height: 90px
+		padding: 5px
+		padding-left: 22px
+
+	.button_send
+		margin-top: 20px
+		text-align: center
+		vertical-align: middle
+		background-color: #f2c200
+		border-radius: 70px
+		border-radius: 70px
+		width: 230px
+		height: 67px
+		padding: 20px
+		font-family: 'Muli', sans-serif
+		font-size: 20px
+		font-weight: 400
+		text-decoration: none
+		color: #2b2d5c
+		opacity: 1
+		border: 0px
+		text-transform: uppercase
+		&:hover
+			background-color: #fff
+
+footer
+	color: #fff
+	font-family: 'Muli', sans-serif
+	font-size: 14px
+	background-color: #2b2d5c
+	border-top: 1px rgba(255,255,255,0.3) solid
+
+	.container_fotter
+		display: flex
+		justify-content: center
+
+	h3
+		font-size: 24px
+		font-weight: 400
+	h4
+		font-size: 20px
+		font-weight: 400
+
+	p 
+		margin: 0px
+		padding: 0px
+
+	.infocopirate 
+		border-top: 1px rgba(255,255,255,0.3) solid
+		font-family: 'Muli', sans-serif 
+		font-size: 14px
+		padding-top: 20px
+		height: 40px
+		font-weight: 400
+		text-align: center
+		color: #676884
+
+.ya-share2__badge
+	background: none !important
+
+
